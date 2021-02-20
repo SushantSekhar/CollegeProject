@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>!! CMS Logi !!</display-name>
+  <servlet>
+   <servlet-name>myWeb</servlet-name>
+   <servlet-class>com.sushant.servlets.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>myWeb</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
